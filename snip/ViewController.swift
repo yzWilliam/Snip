@@ -8,10 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet var signUpButton: UIButton!
+    @IBOutlet var loginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        signUpButton.layer.borderWidth = 1
+        signUpButton.layer.cornerRadius = 20
+        loginButton.layer.borderWidth = 1
+        loginButton.layer.cornerRadius = 20
     }
 
 

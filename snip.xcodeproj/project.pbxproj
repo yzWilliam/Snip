@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF3EDAB825C3080A00D16CCF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EDAB725C3080900D16CCF /* HomeVC.swift */; };
+		CF3EDABD25C30D3400D16CCF /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EDABC25C30D3400D16CCF /* ItemCell.swift */; };
+		CF3EDAC525C3215300D16CCF /* Survey1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EDAC425C3215300D16CCF /* Survey1VC.swift */; };
+		CF3EDACA25C3222000D16CCF /* Survey3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EDAC925C3222000D16CCF /* Survey3VC.swift */; };
+		CF3EDACF25C33F3A00D16CCF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EDACE25C33F3A00D16CCF /* Product.swift */; };
+		CF3EDAD425C3409400D16CCF /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EDAD325C3409400D16CCF /* Products.swift */; };
+		CF3EDAE425C357D900D16CCF /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = CF3EDAE325C357D900D16CCF /* products.json */; };
 		CFEBE87725C1E361004CC466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE87625C1E361004CC466 /* AppDelegate.swift */; };
 		CFEBE87925C1E361004CC466 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE87825C1E361004CC466 /* SceneDelegate.swift */; };
 		CFEBE87B25C1E361004CC466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE87A25C1E361004CC466 /* ViewController.swift */; };
@@ -15,6 +22,8 @@
 		CFEBE88325C1E362004CC466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEBE88125C1E362004CC466 /* LaunchScreen.storyboard */; };
 		CFEBE88E25C1E363004CC466 /* snipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE88D25C1E363004CC466 /* snipTests.swift */; };
 		CFEBE89925C1E363004CC466 /* snipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE89825C1E363004CC466 /* snipUITests.swift */; };
+		CFEBE8AA25C1E727004CC466 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE8A925C1E727004CC466 /* SignUpVC.swift */; };
+		CFEBE8AF25C1E737004CC466 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBE8AE25C1E737004CC466 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF3EDAB725C3080900D16CCF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CF3EDABC25C30D3400D16CCF /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		CF3EDAC425C3215300D16CCF /* Survey1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey1VC.swift; sourceTree = "<group>"; };
+		CF3EDAC925C3222000D16CCF /* Survey3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey3VC.swift; sourceTree = "<group>"; };
+		CF3EDACE25C33F3A00D16CCF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CF3EDAD325C3409400D16CCF /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		CF3EDAE325C357D900D16CCF /* products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		CFEBE87325C1E361004CC466 /* snip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEBE87625C1E361004CC466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFEBE87825C1E361004CC466 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,8 @@
 		CFEBE89425C1E363004CC466 /* snipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEBE89825C1E363004CC466 /* snipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snipUITests.swift; sourceTree = "<group>"; };
 		CFEBE89A25C1E363004CC466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEBE8A925C1E727004CC466 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		CFEBE8AE25C1E737004CC466 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,15 @@
 			children = (
 				CFEBE87625C1E361004CC466 /* AppDelegate.swift */,
 				CFEBE87825C1E361004CC466 /* SceneDelegate.swift */,
+				CF3EDAC925C3222000D16CCF /* Survey3VC.swift */,
+				CF3EDABC25C30D3400D16CCF /* ItemCell.swift */,
+				CF3EDAE325C357D900D16CCF /* products.json */,
+				CF3EDAB725C3080900D16CCF /* HomeVC.swift */,
+				CF3EDAD325C3409400D16CCF /* Products.swift */,
+				CFEBE8AE25C1E737004CC466 /* LoginVC.swift */,
+				CF3EDACE25C33F3A00D16CCF /* Product.swift */,
+				CF3EDAC425C3215300D16CCF /* Survey1VC.swift */,
+				CFEBE8A925C1E727004CC466 /* SignUpVC.swift */,
 				CFEBE87A25C1E361004CC466 /* ViewController.swift */,
 				CFEBE87C25C1E361004CC466 /* Main.storyboard */,
 				CFEBE87F25C1E362004CC466 /* Assets.xcassets */,
@@ -232,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFEBE88325C1E362004CC466 /* LaunchScreen.storyboard in Resources */,
+				CF3EDAE425C357D900D16CCF /* products.json in Resources */,
 				CFEBE88025C1E362004CC466 /* Assets.xcassets in Resources */,
 				CFEBE87E25C1E361004CC466 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3EDABD25C30D3400D16CCF /* ItemCell.swift in Sources */,
+				CF3EDAD425C3409400D16CCF /* Products.swift in Sources */,
+				CF3EDAB825C3080A00D16CCF /* HomeVC.swift in Sources */,
+				CF3EDAC525C3215300D16CCF /* Survey1VC.swift in Sources */,
+				CFEBE8AA25C1E727004CC466 /* SignUpVC.swift in Sources */,
+				CF3EDACA25C3222000D16CCF /* Survey3VC.swift in Sources */,
 				CFEBE87B25C1E361004CC466 /* ViewController.swift in Sources */,
 				CFEBE87725C1E361004CC466 /* AppDelegate.swift in Sources */,
+				CF3EDACF25C33F3A00D16CCF /* Product.swift in Sources */,
 				CFEBE87925C1E361004CC466 /* SceneDelegate.swift in Sources */,
+				CFEBE8AF25C1E737004CC466 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
