@@ -19,7 +19,6 @@ class ItemCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // descriptionLabel.lineBreakMode = .byWordWrapping
         // Initialization code
     }
 

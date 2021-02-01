@@ -36,6 +36,126 @@
             ],
             "description": "Finally started my YouTube channel, it's easier than you think! Rooting for ya'll!",
             "price": 50
+        },
+        {
+            "userImage":"user image url",
+            "username":"Freya",
+            "location": "Chicago",
+            "productImage": {
+              "before": "product image before url",
+              "after": "product image after url"
+            },
+            "tags":[
+                "Bedazzle",
+                "DIY"
+            ],
+            "description": "Finally started my YouTube channel, it's easier than you think! Rooting for ya'll!",
+            "price": 180
+        },
+        {
+            "userImage":"user image url",
+            "username":"Spyridon",
+            "location": "Houston",
+            "productImage": {
+              "before": "product image before url",
+              "after": "product image after url"
+            },
+            "tags":[
+                "Bedazzle",
+                "DIY"
+            ],
+            "description": "Finally started my YouTube channel, it's easier than you think! Rooting for ya'll!",
+            "price": 210
+        },
+        {
+            "userImage":"user image url",
+            "username":"Urd",
+            "location": "Phoenix",
+            "productImage": {
+              "before": "product image before url",
+              "after": "product image after url"
+            },
+            "tags":[
+                "Bedazzle",
+                "DIY"
+            ],
+            "description": "Finally started my YouTube channel, it's easier than you think! Rooting for ya'll!",
+            "price": 40
+        },
+        {
+            "userImage":"user image url",
+            "username":"Marthe",
+            "location": "Philadelphia",
+            "productImage": {
+              "before": "product image before url",
+              "after": "product image after url"
+            },
+            "tags":[
+                "Bedazzle",
+                "DIY"
+            ],
+            "description": "Finally started my YouTube channel, it's easier than you think! Rooting for ya'll!",
+            "price": 85
+        },
+        {
+            "userImage":"user image url",
+            "username":"Alicia",
+            "location": "Seattle",
+            "productImage": {
+              "before": "product image before url",
+              "after": "product image after url"
+            },
+            "tags":[
+                "Bedazzle",
+                "DIY"
+            ],
+            "description": "Finally started my YouTube channel, it's easier than you think! Rooting for ya'll!",
+            "price": 65
+        },
+        {
+            "userImage":"user image url",
+            "username":"Gabriel",
+            "location": "Denver",
+            "productImage": {
+              "before": "product image before url",
+              "after": "product image after url"
+            },
+            "tags":[
+                "Bedazzle",
+                "DIY"
+            ],
+            "description": "Finally started my YouTube channel, it's easier than you think! Rooting for ya'll!",
+            "price": 125
+        },
+        {
+            "userImage":"user image url",
+            "username":"Jannine",
+            "location": "Boston",
+            "productImage": {
+              "before": "product image before url",
+              "after": "product image after url"
+            },
+            "tags":[
+                "Bedazzle",
+                "DIY"
+            ],
+            "description": "Finally started my YouTube channel, it's easier than you think! Rooting for ya'll!",
+            "price": 75
+        },
+        {
+            "userImage":"user image url",
+            "username":"Arseniy",
+            "location": "Detroit",
+            "productImage": {
+              "before": "product image before url",
+              "after": "product image after url"
+            },
+            "tags":[
+                "Bedazzle",
+                "DIY"
+            ],
+            "description": "Finally started my YouTube channel, it's easier than you think! Rooting for ya'll!",
+            "price": 195
         }
     ]
 }

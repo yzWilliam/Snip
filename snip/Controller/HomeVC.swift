@@ -10,9 +10,20 @@ import UIKit
 class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var products = [Product]()
+    var imageNames = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let fm = FileManager.default
+        let path = Bundle.main.resourcePath!
+        let items = try! fm.contentsOfDirectory(atPath: path)
+        for item in items {
+            if item.hasPrefix("product") && item.hasSuffix(".png") {
+                imageNames.append(item)
+            }
+        }
+        
         loadJSON(filename: "products")
     }
     
@@ -29,6 +40,8 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         cell?.tagsLabel.text = "#" +  product.tags.joined(separator: ", #")
         cell?.priceLabel.text = "GP: " + String(product.price)
         cell?.descriptionLabel.text = product.description
+        cell?.productImageView.image = UIImage(named: imageNames[indexPath.row])
+        
         return cell ?? UITableViewCell()
     }
     
