@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ItemCell: UITableViewCell {
+class HomeCell: UITableViewCell {
 
     @IBOutlet var productImageView: UIImageView!
     @IBOutlet var usernameLabel: UILabel!

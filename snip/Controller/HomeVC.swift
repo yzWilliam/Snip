@@ -33,7 +33,7 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Item Cell") as? ItemCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Home Cell") as? HomeCell
         let product = products[indexPath.row]
         cell?.usernameLabel.text = product.username
         cell?.locationLabel.text = product.location
