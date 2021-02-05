@@ -1,23 +1,18 @@
 //
-//  Survey1VC.swift
+//  SavedVC.swift
 //  snip
 //
-//  Created by Zhiwei Yu on 1/28/21.
+//  Created by Zhiwei Yu on 2/2/21.
 //
 
 import UIKit
 
-class Survey1VC: UIViewController {
+class SavedVC: UIViewController {
 
-    @IBOutlet var inputAgeButton: UIButton!
-    @IBOutlet var inputGenderButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        inputAgeButton.layer.borderWidth = 1
-        inputAgeButton.layer.cornerRadius = 20
-        inputGenderButton.layer.borderWidth = 1
-        inputGenderButton.layer.cornerRadius = 20
+        navigationItem.title = "Creator Studio"
+        // Do any additional setup after loading the view.
     }
     
 

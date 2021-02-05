@@ -1,5 +1,5 @@
 //
-//  LoginVC.swift
+//  SignUpVC.swift
 //  snip
 //
 //  Created by Zhiwei Yu on 1/27/21.
@@ -7,20 +7,28 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class SignUpVC: UIViewController {
 
-    @IBOutlet var loginButton: UIButton!
+
+    @IBOutlet var signUpButton: UIButton!
     @IBOutlet var facebookButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        loginButton.layer.borderWidth = 1
-        loginButton.layer.cornerRadius = 20
-        facebookButton.layer.borderWidth = 1
-        facebookButton.layer.cornerRadius = 20
+        signUpButton.adjust()
+        facebookButton.adjust()
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        navigationController?.tabBarController?.tabBar.isHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(true)
+        navigationController?.tabBarController?.tabBar.isHidden = false
+    }
+    
     /*
     // MARK: - Navigation
 

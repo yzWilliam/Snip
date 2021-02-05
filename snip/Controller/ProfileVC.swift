@@ -1,26 +1,21 @@
 //
-//  SignUpVC.swift
+//  AccountVC.swift
 //  snip
 //
-//  Created by Zhiwei Yu on 1/27/21.
+//  Created by Zhiwei Yu on 2/2/21.
 //
 
 import UIKit
 
-class SignUpVC: UIViewController {
+class ProfileVC: UIViewController {
 
-
-    @IBOutlet var signUpButton: UIButton!
-    @IBOutlet var facebookButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        signUpButton.layer.borderWidth = 1
-        signUpButton.layer.cornerRadius = 20
-        facebookButton.layer.borderWidth = 1
-        facebookButton.layer.cornerRadius = 20
+
+        // Do any additional setup after loading the view.
     }
     
+
     /*
     // MARK: - Navigation
 

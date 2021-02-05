@@ -10,10 +10,12 @@ import UIKit
 class ExploreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     @IBOutlet var collectionView: UICollectionView!
+    
     var imageNames = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         collectionView.delegate = self
         collectionView.dataSource = self
         
@@ -25,9 +27,15 @@ class ExploreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
                 imageNames.append(item)
             }
         }
-        // Do any additional setup after loading the view.
+        
+//        let search = UISearchController(searchResultsController: nil)
+//        search.searchResultsUpdater = self
+//        search.obscuresBackgroundDuringPresentation = false
+//        search.searchBar.placeholder = "Type something here to search"
+//        navigationItem.searchController = search
+        
     }
-    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return imageNames.count
     }
@@ -37,6 +45,11 @@ class ExploreVC: UIViewController, UICollectionViewDelegate, UICollectionViewDat
         cell?.imageView.image = UIImage(named: imageNames[indexPath.item])
         return cell ?? UICollectionViewCell()
     }
+    
+//    func updateSearchResults(for searchController: UISearchController) {
+//        guard let text = searchController.searchBar.text else { return }
+//        print(text)
+//    }
     
     /*
     // MARK: - Navigation

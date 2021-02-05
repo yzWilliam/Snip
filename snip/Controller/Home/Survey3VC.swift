@@ -15,15 +15,21 @@ class Survey3VC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        beginnerButton.layer.borderWidth = 1
-        beginnerButton.layer.cornerRadius = 20
-        intermediateButton.layer.borderWidth = 1
-        intermediateButton.layer.cornerRadius = 20
-        expertButton.layer.borderWidth = 1
-        expertButton.layer.cornerRadius = 20
+        beginnerButton.adjust()
+        intermediateButton.adjust()
+        expertButton.adjust()
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        navigationController?.tabBarController?.tabBar.isHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(true)
+        navigationController?.tabBarController?.tabBar.isHidden = false
+    }
+    
     /*
     // MARK: - Navigation
 
