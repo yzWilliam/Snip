@@ -14,3 +14,13 @@ extension UIButton {
         widthAnchor.constraint(equalToConstant: 300).isActive = true
     }
 }
+
+extension UIImageView {
+    func round() {
+        layer.cornerRadius = frame.size.width/2
+    }
+    func highlight() {
+        layer.borderWidth = 5
+        layer.borderColor = UIColor.purple.cgColor
+    }
+}

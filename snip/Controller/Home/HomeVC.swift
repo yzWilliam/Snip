@@ -10,7 +10,8 @@ import UIKit
 class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     var products = [Product]()
-    var imageNames = [String]()
+    var productImageNames = [String]()
+    var userImageNames = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,9 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         let items = try! fm.contentsOfDirectory(atPath: path)
         for item in items {
             if item.hasPrefix("product") && item.hasSuffix(".png") {
-                imageNames.append(item)
+                productImageNames.append(item)
+            } else if item.hasPrefix("profile") && item.hasSuffix(".png") {
+                userImageNames.append(item)
             }
         }
         
@@ -41,7 +44,9 @@ class HomeVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         cell?.tagsLabel.text = "#" +  product.tags.joined(separator: ", #")
         cell?.priceLabel.text = "GP: " + String(product.price)
         cell?.descriptionLabel.text = product.description
-        cell?.productImageView.image = UIImage(named: imageNames[indexPath.row])
+        cell?.productImageView.image = UIImage(named: productImageNames[indexPath.row])
+        cell?.userImageView.image = UIImage(named: userImageNames[indexPath.row % 5])
+        cell?.userImageView.round()
         
         return cell ?? UITableViewCell()
     }
