@@ -1,2 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-snip-snipUITests/Pods-snip-snipUITests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework

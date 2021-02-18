@@ -6,7 +6,7 @@ target 'snip' do
   use_frameworks!
 
   # Pods for snip
-  pod 'IQKeyboardManager', '~> 6.5'
+  pod 'IQKeyboardManagerSwift'
 
   target 'snipTests' do
     inherit! :search_paths
